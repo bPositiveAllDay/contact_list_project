@@ -1,10 +1,2 @@
-class Contact
-
-  attr_accessor :name, :email
-
-  def initialize(name, email)
-    @name = name
-    @email = email
-  end
-  
-end
+require_relative 'contact'
+require_relative 'contact_database'
